@@ -6,8 +6,10 @@ authors = ["Jonathan Gazeley <me@jonathangazeley.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+PyQt5 = "^5.15.1"
 
 [tool.poetry.dev-dependencies]
+fbs = "^0.9.0"
 
 [build-system]
 requires = ["poetry>=0.12"]
